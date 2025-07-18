@@ -33,7 +33,7 @@ $conda create -n landonorris python=3.11
 $conda activate landonorris
 $pip install -r requirements.txt
 $ollama serve
-$uvicorn server:app --reload  Or $Python -m uvicorn server:aoo --reload
+$uvicorn server:app --reload  Or $Python -m uvicorn server:app --reload
 $streamlit run client.py
 
 
